@@ -1,0 +1,31 @@
+# pip
+pip==21.1.2
+
+# data
+pandas>=1.0.3
+pandas_datareader>=0.8.1
+pandas-gbq>=0.13.1
+tqdm>=4.45.0
+pyarrow
+scipy==1.9.0
+numpy
+
+# gcp
+google-cloud==0.34.0
+google-resumable-media>=0.5.0
+google-oauth>=1.0.0
+google-cloud-storage>=1.27.0
+google-cloud-bigquery>=1.22.0
+
+# kubernetes
+#gcloud==0.18.3
+#gsutil==5.12
+#kubectl  # ERROR: Could not find a version that satisfies the requirement kubectl
+#kfp
+
+# slack
+slack_sdk
+
+# misc
+pytest
+requests

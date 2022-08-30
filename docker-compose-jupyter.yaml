@@ -1,0 +1,11 @@
+version: '3'
+services:
+  notebook:
+    build:
+      context: docker-jupyter-notebook
+    #image: jupyterlab
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/algomosaic
+

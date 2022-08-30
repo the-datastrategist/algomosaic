@@ -1,0 +1,6 @@
+# Files Docker should ignore
+commands
+docs
+notebooks
+venv
+*.md
